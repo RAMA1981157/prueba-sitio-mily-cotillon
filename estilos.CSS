@@ -1,0 +1,99 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:pink;
+    color:BLACK;
+}
+header {
+    background-color:green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #ffccff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    padding: 20px;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.producto {
+    background-color: white;
+    border: 2px solid #ffc0cb;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+.producto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+footer {
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>"FANTASIAS MILY COTILLON"</h1>
+<p>Todo para tu fiesta u ocasion especial esta aca</p>
+</header>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Productos</a>
+<a href="#">Ofertas</a>
+<a href="#">Contacto</a>
+<a href="#">Ubicacion</a>
+</nav>
+
+<div class="container">
+<h2>Productos Destacados</h2>
+<div class="productos">
+    <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ujVw_gJGcVN9gqXUHacIGaaxmog2EM9Yqw&s" alt="CUMPLEAÑOS TEMATICO">
+        <h3>LILO Y STICH</h3>
+        <p>ORNAMENTACION PARA TU FRENTE DE FIESTA</p>
+        <p><strong>$10.000</strong></p>
+    </div>
+    <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_UdgBNvmmLLLrVTHwKOLNE2aDSkeCEswq0g&s" alt="DESCARTABLE TEMATICOS">
+        <h3>Kits de vasos, platos y bandejas</h3>
+        <p>Variedad de colores y diseños.</p>
+        <p><strong>$5.000</strong></p>
+    </div>
+    <div class="producto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHOKOLSR8hDy0K2kMPXJ6H5jMTMA_iFgObQ&s" alt="disfraces">
+        <h3>disfraces tematicos</h3>
+        <p>consultanos por la tematica de tu fiesta</p>
+        <p><strong>$ 5.000 - $ 10.000</strong></p>
+    </div>
+</div>
+</div>
+
+<footer>
+<p>B° 365 Viv Mza 23 "C" Casa 02, Tartagal, Salta - Argentina |+54 3873360872 |</p>
+<a href="mailto:ramirogonzaloteseyra1@gmail.com">PEDI TU PRESUPUESTO</a>
+<p>&copy;FANTASIAS MILY COTILLON. Todos los derechos reservados.</p>
+</footer>
+
+</a>
